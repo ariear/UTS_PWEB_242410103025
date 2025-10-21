@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <main>
-    <div class="mx-auto pr-5 pl-1">
+    <div class="mx-auto pr-5 pl-3">
         <div class="grid grid-cols-12">
             <div class="col-span-12">
                 <div class="overflow-x-auto border border-gray-200 rounded-xl">

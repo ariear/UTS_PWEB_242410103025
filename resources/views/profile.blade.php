@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <main>
-    <div class="mx-auto pr-5 pl-1">
+    <div class="mx-auto pr-5 pl-3">
         <div class="grid grid-cols-12">
             <div class="col-span-12">
                 <h1 class="text-3xl font-semibold mb-4">Selamat datang di halaman profile, {{$username}}!</h1>

@@ -1,4 +1,4 @@
-<aside class="fixed left-0 top-0 z-20 flex h-screen w-[355px] flex-col overflow-y-hidden px-5 py-5 lg:static lg:translate-x-0 bg-[#f9fafb]">
+<aside class="sidebar fixed left-0 top-0 z-20 hidden lg:flex h-screen w-[355px] flex-col overflow-y-hidden px-5 py-5 lg:static lg:translate-x-0 bg-[#f9fafb]">
     <div class="h-full rounded-3xl border border-gray-200 bg-white">
         <div class="gap-2 pt-8 pb-7">
             <p class="font-semibold text-xl text-center tracking-wider">SIPEDU</p>
