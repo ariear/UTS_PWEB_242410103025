@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class DashboardPendudukController extends Controller
 {
-    public function index() {
+    public function index(Request $request) {
         $penduduks = [
             [
                 "nama" => "Arie",
@@ -29,7 +29,9 @@ class DashboardPendudukController extends Controller
         ];
 
         return view('pengelolaan_penduduk', [
-            'penduduks' => $penduduks
+            'title' => 'Pengelolaan Penduduk',
+            'penduduks' => $penduduks,
+            'username' => $request->username
         ]);
     }
 }
